@@ -1,0 +1,15 @@
+UserController=\u7528\u6237\u7BA1\u7406
+RoleController=\u89D2\u8272\u7BA1\u7406
+MenuController=\u83DC\u5355\u7BA1\u7406
+AreaController=\u533A\u57DF\u7BA1\u7406
+InformationController=\u516C\u5171\u4FE1\u606F\u7BA1\u7406
+InformationTypeController=\u516C\u5171\u4FE1\u606F\u7C7B\u578B\u7BA1\u7406
+NoticeController=\u516C\u544A\u7BA1\u7406
+OrganizationController=\u7EC4\u7EC7\u673A\u6784\u7BA1\u7406
+LinkController=\u94FE\u63A5\u7BA1\u7406
+PositionController=\u5C97\u4F4D\u7BA1\u7406
+AreaTypeController=\u533A\u57DF\u7C7B\u578B\u7BA1\u7406
+QuestionnaireController=\u95EE\u5377\u8C03\u67E5
+ManagerController=\u7BA1\u7406\u5458\u7BA1\u7406
+TeacherController=\u6559\u5E08\u7BA1\u7406
+StudentController=\u5B66\u751F\u7BA1\u7406

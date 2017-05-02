@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----------------测试窗口----------------------*/
+
+.test_page{ float:left; width:960px; padding:30px  20px;}
+.test_page .test_title1{ float:left; width:960px; font-size:20px; color:#2d3750; line-height:50px; text-align:center;}
+.test_page .test_content1{ float:left; width:960px;color:#2d3750; padding-top:20px;}
+.test_page .pdt1{ padding-top:0px;}
+.test_page .test_content1 .st_type{ float:left; width:956px; font-size:16px; line-height:32px;color:#FFF; padding-left:4px; background:url(../images/tc_title_bk1.jpg) repeat-y; margin-top:20px;}
+.test_page .test_content1 .st_type span{ float:left; padding:0  80px 0  10px; background:#4ab3ac;}
+.test_page .test_content1 .st_nr{ float:left; width:900px; padding:10px 30px;}
+.test_page .test_content1 .st_nr .st_title{ float:left; width:900px; font-size:14px; line-height:30px; padding:12px 0;}
+.test_page .test_content1 .st_nr .st_xx{ float:left; width:860px; font-size:14px; line-height:35px; padding:0px 20px 20px 20px;}
+.test_page .test_content1 .st_nr .st_xx p{ float:left; width:860px;}
+.test_page .test_content1 .st_nr .st_xx span{ float:left; margin-right:30px;}
+.test_page .test_content1 .st_nr .st_xx span.half{ float:left; width:430px; margin-right:0px;}
+.test_page .test_content1 .st_nr .st_zdbox{ float:left; width:870px; padding:15px; background:#ececec;font-size:14px;}
+.test_page .test_content1 .st_nr .st_zdbox  .l_txt{ float:left; width:80px; color:#4ab3ac; font-size:14px; line-height:25px;}
+.test_page .test_content1 .st_nr .st_zdbox  .r_zd{ float:left; width:780px;}
+.test_page .test_content1 .st_nr .st_zdbox  .r_zd .xk{ float:left;  height:25px; line-height:25px; background:#4ab3ac; padding:0 10px; color:#FFF; margin-right:20px; cursor:pointer;}
+.test_page .test_content1 .st_nr .st_zdbox  .r_zd .xk .radio1{ float:left; margin-right:5px; margin-top:6px;}
+.test_page .test_content1 .st_nr .st_zdbox  .r_zd .xk .checkbox1{ float:left; margin-right:8px; margin-top:6px;}
+.test_page .test_content1 .st_nr .st_zdbox  .r_zd .xk span{ float:left; font-weight:bold;}
+.test_page .test_content1 .st_nr .st_zdbox  .r_zd .xk span.s1{ padding:0 5px;}
+.test_page .test_content1 .st_nr .st_zdbox  .r_zd .xk_checked{background:#f2842b;}
+.test_page .test_content1 .st_nr .st_zdbox  .r_zd .jx{ float:left; clear:both; width:780px; padding:10px 0px; line-height:26px; color:#00a89d;}
+.test_page .test_content1 .st_nr .st_zdbox  .r_zd .jx p{ margin-top:5px;}
+.test_page .test_content1 .st_nr .st_zdbox  .k1{ float:left; width:778px; background:#FFF; border:1px solid #dbd8d8; line-height:25px; color:#2d3750; font-size:14px; height:50px; padding:0px 5px; font-family:"微软雅黑";}
+.test_page .test_content1 .st_nr .st_zdbox  .k2{ float:left; width:778px; background:#FFF; border:1px solid #dbd8d8; line-height:25px; color:#2d3750; font-size:14px; height:150px; padding:0px 5px; font-family:"微软雅黑";}
+
+.test_page .test_content1 .btnbox{ float:left; width:960px; padding:30px 0; text-align:center;}
+.test_page .test_content1 .btnbox a.st1{ padding:0  100px; height:45px; line-height:45px; background:#f36d01; font-size:16px; color:#FFF; float:left; margin-left:350px; display:inline;}
+.test_page .test_content1 .btnbox a.st1:hover{  background:#fb872a;}
+.test_page .test_content1 .btnbox .r_box{ float:right; padding-right:20px;}
+.test_page .test_content1 .btnbox .r_box a.s1{ float:left; margin-right:10px; line-height:40px; padding: 0 50px; font-size:16px; color:#FFF;  background:#f36d01;}
+.test_page .test_content1 .btnbox .r_box a.s1:hover{ background:#fb872a;}
+.test_page .test_content1 .btnbox .r_box a.s2{ float:left; margin-right:10px; line-height:40px; padding: 0 50px; font-size:16px; color:#FFF;  background:#636363;}
+.test_page .test_content1 .btnbox .r_box a.s2:hover{ background:#828282;}
+
+/*---------测试结果---------*/
+.test_result{ float:left; width:770px; padding:15px;}
+.test_result .text{ float:left; width:700px; padding:30px 35px; font-size:18px;color:#2d3750; line-height:40px; text-align:center;}
+.test_result .text span{ padding:0 3px; font-weight:bold;}
+.test_result .text span.s1{ color:#4ab3ac;}
+.test_result .text span.s2{ color:#f36d01;}
+.test_result  .btnbox{ float:left; padding:20px  0 10px 130px;}
+.test_result  .btnbox a.s1{ float:left; margin-right:10px; line-height:40px; padding: 0 50px; font-size:16px; color:#FFF;  background:#f36d01;}
+.test_result  .btnbox a.s1:hover{ background:#fb872a;}
+.test_result  .btnbox a.s2{ float:left; margin-right:10px; line-height:40px; padding: 0 50px; font-size:16px; color:#FFF;  background:#4ab3ac;}
+.test_result  .btnbox a.s2:hover{ background:#5ec9c2;}
+/*----证书*-------*/
+.zs_page{ float:left; width:100%; background:#f4f4f4; padding:20px 0;}
+.zs_page .zs_page_mid{ margin:0 auto; width:1150px; background:#FFF; padding:30px 0; text-align:center;}
+
+/*--------教师信息---------*/
+.teacher_inf{float:left; width:780px; padding:15px 10px  25px 10px;}
+.teacher_inf .t_box1{float:left; width:780px; border-bottom:1px dotted #edf0f2;color:#4f4f4f; padding:10px 0;}
+.teacher_inf .t_box1 .imgbox{float:left; width:112px; height:150px; padding:5px; border:1px solid #edf0f2; margin-top:10px;}
+.teacher_inf .t_box1 .r_inf{ margin-left:150px;}
+.teacher_inf .t_box1 .r_inf .txt1{ float:left; font-size:14px; line-height:35px; width:630px;}
+.teacher_inf .t_box1 .r_inf .txt1 span{ font-weight:bold; padding-right:5px;}
+.teacher_inf .t_box1 .r_inf .txt1 .s1{ margin-right:40px; float:left;}
+.teacher_inf .t_box1 .r_inf .txt2{ float:left;  font-size:13px; line-height:27px; color:#777777;}
+.teacher_inf .t_box1 .r_inf .txt2 a{ color:#4ab3ac; padding:0 5px;}

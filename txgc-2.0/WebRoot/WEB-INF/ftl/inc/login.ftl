@@ -1,0 +1,1 @@
+<link href="${static}/css/font.css" rel="stylesheet" />

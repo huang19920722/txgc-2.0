@@ -1,0 +1,76 @@
+html,body{ 
+	height:100%;
+	overflow:hidden;
+	font-family:"Microsoft YaHei";
+}
+html, body, div, iframe, h1, h2, h3, h4, h5, h6, p, a, del, em, b, i, s, img, strong, dd, dl, dt,  ol, ul, li, label, form, table, tbody, thead, tr, th, td, address, span, cite { margin:0; padding:0; border:medium none; }
+h1, h2, h3, h4, h5, h6 {font-size:100%;}
+table { border-spacing:0 0;border-collapse:collapse;}
+a {text-decoration: none; outline:0;color:#000;}
+a:hover { text-decoration:underline; color:#f60;}
+a:focus {outline:none;-moz-outline:none;}
+ul,ol { list-style:none; text-align: left;}
+
+/*基本表格*/
+.basic_form{
+	padding:10px;
+}
+table.basic{
+	border:1px solid #D0E3F2;
+	width:100%;
+	color:#535353;
+}
+table.basic_dialog{
+	border-top:none;
+	border-left: none;
+	border-right: none;
+	color:#535353;
+}
+table.basic .bs_name, .bs_tb .bs_name,.bs_title{
+	background:url(../images/table_title1.png) no-repeat;
+	line-height:35px;
+	font-weight:bold;
+	color:#fff;
+	text-align:left;
+	padding-left:10px;
+}
+
+table.basic th,.basic td { border-right:1px solid #D0E3F2; border-bottom:1px solid #D0E3F2; height:35px; font-weight: normal;}
+table.basic_dialog td{border-right:none}
+table.basic tbody th { height:30px; text-align:right; padding-right:10px; background:#ECF2FA;}
+table.basic td { text-align:left; padding-left:10px; line-height:35px;}
+table.basic b{
+	color:#60b0e1;
+	text-decoration:underline;
+	text-align:center;
+	cursor:pointer;
+}
+/*列表*/
+.xllist { border:1px solid #e3e3e3; width:100%;}
+.xllist tr:nth-child(2n) {
+    background-color: #fcfcfc;
+    transition: all .125s ease-in-out;
+}
+.xllist tr:hover { background:#fbf8e9;}
+.xllist th,.xllist td { border-right:1px solid #e3e3e3; border-bottom:1px solid #e3e3e3;text-align:center;}
+.xllist th { background:url(images/table.png) repeat-x; color:#585858; height:30px;}
+.xllist td { text-align:center; line-height:25px; height:30px;}
+.xllist1 td { text-align:left; padding:6px 10px;}
+.xllist .xlming { text-align:center; padding-left:10px;}
+
+div.search_table {padding:15px 20px 5px;color:#535353;}
+.search_table table tr{height:30px;}
+.search_table table th{text-align:right;font-weight: normal;}
+.search_table table td{padding-right:15px;}
+.span_line{color:#AED0EA;}
+/*修改easyui*/
+/*datagrid文字颜色*/
+.datagrid-htable, .datagrid-btable, .datagrid-ftable{
+	color:#333;
+}
+/*其他组件字体颜色*/
+.textbox-text,.validatebox-text,.panel-body,.txt002{
+	color:#333;
+}
+
+

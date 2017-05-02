@@ -1,0 +1,153 @@
+<%--
+   文件：ADQMS900 －－ /print/printAcceptFile.jsp
+   主题：本页面进行接受文件打印卡片
+   版权所有(C) 2003 重庆亚德科技有限责任公司
+   创建人 / 时间：lmf / 2016.03.29
+--%>
+<%@ page contentType="text/html; charset=GBK"  %>
+
+<%@ page import="java.util.*" %>
+<%@ page import="java.text.*" %>
+<html>
+<head>
+  <title>请示用笺打印页面</title> 
+  <link rel="stylesheet" href="print/pristyle.css" type="text/css"/>
+  <meta http-equiv="Content-Language" content="zh-ch">
+  <meta http-equiv="Content-Type" content="text/html; charset=GBK"> 
+</head>
+<style type="text/css">
+table td{ padding: 4px; line-height: 23px;}
+</style>
+<!--
+<body leftmargin="0" topmargin="0"  oncontextmenu="return false" ondragstart="return false" onselectstart ="return false" onselect="document.selection.empty()" oncopy="document.selection.empty()" onbeforecopy="return false" onmouseup="document.selection.empty()">
+-->
+<body leftmargin="0" topmargin="0"   >
+
+<div align="center">
+  <center>
+  <font class="hiddenCla" color="#FF0000" size="6"><b>重庆五一高级技工学校工作请示用笺</b></font><br><br>
+  
+<table  border="4"     cellspacing="0" cellpadding="0"    frame="void"  width="794px"  height="1123px" > <!--   width="649px"  height="1038px"      978px     990px  1010px  1043px--> 
+    
+	<tr height="137px">
+		<td colspan="6" valign="bottom" style="border:none" align="center" >
+			&nbsp;
+			<font size="5" class="hiddenCla">
+				第
+			</font>
+			<font size="5" >
+				<input value="102" align="center" style="border-style: solid; border-width: 0;font-size:20px;vertical-align:middle;text-align:center;width:68px;" maxlength="3" type="text" id="whId"   /> <!-- value="填" onfocus="javascript:if(this.value=='填')this.value='';" -->
+			</font>
+			<font size="5" class="hiddenCla">
+				号 
+			</font>
+		</td>
+		
+	</tr>
+	<tr height="65px"  >
+	
+		<td valign="bottom" style="border:none" colspan="3" width="50%">
+			<font size="5" class="hiddenCla">
+				科、系:
+			</font>
+			<font size="5" >
+				<input value="计算机" align="center" style="border-style: solid; border-width: 0;font-size:20px;vertical-align:middle;text-align:left;width:236px;"  type="text" id="kxId" />
+			</font>
+			
+		</td>
+		<td valign="bottom" align="left" style="border:none" colspan="3" width="50%">
+		<nobr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<font size="5" class="hiddenCla">
+				日期: 
+			</font>
+			<font size="5" >
+				<input value="2016" align="center" style="border-style: solid; border-width: 0;font-size:20px;vertical-align:middle;text-align:left;width:42px;"  maxlength="4" type="text" id="yearId" />
+			</font>
+			<font size="5" class="hiddenCla">年
+			</font>
+			<font size="5" >
+				<input value="04" align="center" style="border-style: solid; border-width: 0;font-size:20px;vertical-align:middle;text-align:left;width:20px;"  maxlength="2" type="text" id="monthId" />
+			</font>
+			<font size="5" class="hiddenCla">月
+			</font>
+			<font size="5" >
+				<input value="12" align="center" style="border-style: solid; border-width: 0;font-size:20px;vertical-align:middle;text-align:left;width:20px;"  maxlength="2" type="text" id="dayId" />
+			</font>
+			<font size="5" class="hiddenCla">日
+			</font>
+			<font size="5" >
+				<input value="19" align="center" style="border-style: solid; border-width: 0;font-size:20px;vertical-align:middle;text-align:left;width:20px;"  maxlength="2" type="text" id="hourId" /></font>
+			<font size="5" class="hiddenCla">时
+			</font>
+			
+		</nobr>
+		</td>
+	
+	</tr>
+  	<tr height="341px">
+		<td     valign="top" align="left"   colspan="6"  style="border-left:medium none;border-right:medium none; border-bottom:medium none">
+			<font size="5"  style="border-left:medium none" class="hiddenCla">
+				领导批示:<br/>
+			</font>	
+			<font size="5" style="border-left:medium none" >
+				<textarea rows="3" cols="200" id="ldpsId" style="border-style: solid; border-width: 0;width:649px;height:260px;font-size:20px;overflow-x:hidden;overflow-y:hidden;"  >&nbsp;&nbsp;&nbsp;&nbsp;领导批示领导批示领导批示</textarea>
+			</font>
+		</td> 
+		
+	</tr>
+	
+  	<tr height="495px">
+		<td     valign="top" align="left"   colspan="6"  style="border-left:medium none;border-right:medium none; border-bottom:medium none">
+			<font size="5"  style="border-left:medium none" class="hiddenCla">
+				请示内容:<br/>
+			</font>	
+			<font size="5" style="border-left:medium none">
+				<textarea rows="3" cols="200" id="qslrId" style="border-style: solid; border-width: 0;width:649px;height:460px;font-size:20px;overflow-x:hidden;overflow-y:hidden;"  >&nbsp;&nbsp;&nbsp;&nbsp;请示内容请示内容请示内容</textarea>
+			</font>
+		</td> 
+	</tr>
+	
+  	<tr height="48px">
+		<td  valign="bottom"  width="25%"  colspan="6"  align="left"  style="border-left:medium none;border-right:medium none; border-bottom:medium none">
+		<nobr>&nbsp;
+			<font size="5"  style="border-left:medium none" class="hiddenCla">
+				拟稿人:
+			</font>
+			<font size="5"  style="border-left:medium none">
+				<input value="拟稿人" style="border-style: solid; border-width: 0;font-size:20px;vertical-align:middle;text-align:left;width:60px;"  type="text" id="lgrId" />				
+			</font>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<font size="5"  style="border-left:medium none"  class="hiddenCla">
+				核稿人:
+			</font>
+		
+			<font size="5"  style="border-left:medium none"  >
+				<input value="核稿人" style="border-style: solid; border-width: 0;font-size:20px;vertical-align:middle;text-align:left;width:60px;"  type="text" id="sgrId" />			
+			</font>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<font size="5"  style="border-left:medium none"  class="hiddenCla">
+				部门负责人:
+			</font>
+			<font size="5"  style="border-left:medium none"  >
+				<input  value="负责人" style="border-style: solid; border-width: 0;font-size:20px;vertical-align:middle;text-align:left;width:60px;"  type="text" id="bmfzrId" />				
+			</font>
+		</nobr>
+		</td>
+		
+	</tr>
+	<tr height="17px">
+		<td     valign="top" align="left"   colspan="6"  style="border:none" >
+			
+		</td> 
+	</tr>
+	
+  
+  </table>
+  <br>
+ <jsp:include page="../printButton.jsp"/>
+  </center>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+i{ font-style:normal};
+
+
+.grzx{ float:left; width:100%;min-height:1000px;}
+.grzx .grzx_top{ float:left; width:100%; height:260px;background:url(../images/1920.jpg) no-repeat center top; }
+.grzx .grzx_top .grzx_top_mid{ margin:0 auto; width:1190px; height:180px; }
+.grzx .grzx_top .grzx_top_mid .lbox{ float:left; padding:25px 0 0 50px; width:720px;  color:#f36d01;}
+.grzx .grzx_top .grzx_top_mid .lbox p.s1{ font-size:36px; line-height:60px;}
+.grzx .grzx_top .grzx_top_mid .lbox p.s2{ font-size:24px; line-height:40px;}
+.grzx .grzx_top .grzx_top_mid .lbox p.s3{ font-size:18px; line-height:30px; color:#7e7e7e; padding-top:10px;}
+.grzx .grzx_top .grzx_top_mid .rbox{ float:right; width:150px; padding:70px 0 0 0;}
+.grzx .grzx_top .grzx_top_mid .rbox .table1{ float:left; width:100%;}
+.grzx .grzx_top .grzx_top_mid .rbox .table1 tr td{ font-size:18px; line-height:35px; text-align:center;}
+.grzx .grzx_top .grzx_top_mid .rbox .table1 tr td.st1{ color:#7e7e7e;}
+.grzx .grzx_top .grzx_top_mid .rbox .table1 tr td.st2{ color:#f36d01; font-size:16px; font-family:Arial, Helvetica, sans-serif;}
+.grzx .grzx_xx{ float:left; width:100%; height:69px; border-bottom:1px solid #d4d4d4;}
+.grzx .grzx_xx .grzx_xx_mid{ margin:0 auto; width:890px; padding-left:300px;}
+.grzx .grzx_xx .grzx_xx_mid .table1{ float:left; width:100%; margin-top:10px;}
+.grzx .grzx_xx .grzx_xx_mid .table1 tr td{ font-size:14px; line-height:25px; text-align:center;color:#7e7e7e;}
+.grzx .grzx_xx .grzx_xx_mid .table1 tr td.st1{ color:#f36d01; font-size:18px; font-family:Arial, Helvetica, sans-serif,"微软雅黑";}
+.grzx .grzx_xx .grzx_xx_mid .table1 tr td.st1 a{ color:#f36d01;}
+.grzx .grzx_xx .grzx_xx_mid .table1 tr td.st1 a:hover{ color:#4AB3AC;}
+.grzx .grzx_main{ float:left; width:100%; padding:20px 0 30px 0;}
+.grzx .grzx_main .grzx_main_mid{ margin:0 auto; width:1190px; position:relative;}
+.grzx .grzx_main .grzx_main_mid .l_meun{ position:absolute; left:0px; top:-140px; width:220px; z-index:1;}
+.grzx .grzx_main .grzx_main_mid .l_meun1{ position:fixed;}
+.grzx .grzx_main .grzx_main_mid .l_meun .txbox{ float:left; width:151px; height:151px; padding:0 34px; }
+.grzx .grzx_main .grzx_main_mid .l_meun .txbox img{ float:left; width:150px; height:150px; border:1px solid #27a8bc;border-radius:75px; -webkit-border-radius:75px; -moz-border-radius:75px; }
+.grzx .grzx_main .grzx_main_mid .l_meun .meunbox{ float:left; width:220px; margin-top:20px;}
+.grzx .grzx_main .grzx_main_mid .l_meun .meunbox a{ float:left; width:185px; border-bottom:1px solid #e4e4e4; line-height:70px; color:#7e7e7e; padding-right:35px; background:url(../images/grzx_jt1.png) 185px 30px no-repeat;font-size:18px;}
+.grzx .grzx_main .grzx_main_mid .l_meun .meunbox a span{ float:left; width:150px; padding-left:35px; text-align:center;}
+.grzx .grzx_main .grzx_main_mid .l_meun .meunbox a span.st1{ background:url(../images/grzx_icon01_1.png) 15px 25px no-repeat;}
+.grzx .grzx_main .grzx_main_mid .l_meun .meunbox a span.st2{ background:url(../images/grzx_icon02_1.png) 15px 25px no-repeat;}
+.grzx .grzx_main .grzx_main_mid .l_meun .meunbox a span.st3{ background:url(../images/grzx_icon03_1.png) 15px 25px no-repeat;}
+.grzx .grzx_main .grzx_main_mid .l_meun .meunbox a span.st4{ background:url(../images/grzx_icon04_1.png) 15px 25px no-repeat;}
+.grzx .grzx_main .grzx_main_mid .l_meun .meunbox a span.st5{ background:url(../images/grzx_icon05_1.png) 15px 25px no-repeat;}
+.grzx .grzx_main .grzx_main_mid .l_meun .meunbox a span.st6{ background:url(../images/grzx_icon06_1.png) 15px 25px no-repeat;}
+.grzx .grzx_main .grzx_main_mid .l_meun .meunbox a:hover,.grzx .grzx_main .grzx_main_mid .l_meun .meunbox a.checked{background:url(../images/grzx_jt2.png) 185px 30px no-repeat; color:#4ab3ac;}
+.grzx .grzx_main .grzx_main_mid .l_meun .meunbox a:hover span.st1,.grzx .grzx_main .grzx_main_mid .l_meun .meunbox a.checked  span.st1{ background:url(../images/grzx_icon01_2.png) 15px 25px no-repeat;}
+.grzx .grzx_main .grzx_main_mid .l_meun .meunbox a:hover span.st2,.grzx .grzx_main .grzx_main_mid .l_meun .meunbox a.checked  span.st2{ background:url(../images/grzx_icon02_2.png) 15px 25px no-repeat;}
+.grzx .grzx_main .grzx_main_mid .l_meun .meunbox a:hover span.st3,.grzx .grzx_main .grzx_main_mid .l_meun .meunbox a.checked  span.st3{ background:url(../images/grzx_icon03_2.png) 15px 25px no-repeat;}
+.grzx .grzx_main .grzx_main_mid .l_meun .meunbox a:hover span.st4,.grzx .grzx_main .grzx_main_mid .l_meun .meunbox a.checked  span.st4{ background:url(../images/grzx_icon04_2.png) 15px 25px no-repeat;}
+.grzx .grzx_main .grzx_main_mid .l_meun .meunbox a:hover span.st5,.grzx .grzx_main .grzx_main_mid .l_meun .meunbox a.checked  span.st5{ background:url(../images/grzx_icon05_2.png) 15px 25px no-repeat;}
+.grzx .grzx_main .grzx_main_mid .l_meun .meunbox a:hover span.st6,.grzx .grzx_main .grzx_main_mid .l_meun .meunbox a.checked  span.st6{ background:url(../images/grzx_icon06_2.png) 15px 25px no-repeat;}
+.grzx .grzx_main .grzx_main_mid .r_list{ float:right; width:890px; margin-right:15px;}
+.grzx .grzx_main .grzx_main_mid .r_list .title1{ float:left; width:890px; line-height:55px; height:57px; background:url(../images/point.png) bottom repeat-x; font-size:14px; color:#7e7e7e;}
+.grzx .grzx_main .grzx_main_mid .r_list .title1 .l_txt{ float:left; border-bottom:2px solid #4ab3ac;}
+.grzx .grzx_main .grzx_main_mid .r_list .title1 .l_tab{ float:left;}
+.grzx .grzx_main .grzx_main_mid .r_list .title1 .l_tab a{float:left;margin-right:40px;color:#7e7e7e;}
+.grzx .grzx_main .grzx_main_mid .r_list .title1 .l_tab a.checked{border-bottom:2px solid #4ab3ac; color:#4ab3ac;}
+.grzx .grzx_main .grzx_main_mid .r_list .title1 .l_tab a:hover{border-bottom:2px solid #4ab3ac; color:#4ab3ac;}
+.grzx .grzx_main .grzx_main_mid .r_list .title1 .r_txt{ float:right; position:relative; padding-top:15px;}
+.grzx .grzx_main .grzx_main_mid .r_list .title1 .r_txt a.xz{ float:left; width:95px; padding-right:15px; background:url(../images/grzx_xl1.png) no-repeat 105px 15px; color:#7e7e7e; line-height:38px; padding-left:10px;border:1px solid #FFF;border-bottom:none; font-size:15px;}
+.grzx .grzx_main .grzx_main_mid .r_list .title1 .r_txt a.xz:hover,.grzx .grzx_main .grzx_main_mid .r_list .title1 .r_txt a.checked{ background:url(../images/grzx_xl2.png) no-repeat 105px 15px;border:1px solid #4ab3ac;border-bottom:none;color:#4ab3ac;}
+.grzx .grzx_main .grzx_main_mid .r_list .title1 .r_txt .xll{ position:absolute; top:54px; left:0px; width:120px; background:#FFF; border:1px solid #4ab3ac;border-top:none; z-index:1;}
+.grzx .grzx_main .grzx_main_mid .r_list .title1 .r_txt .xll a{ float:left; padding-left:15px; width:105px; line-height:35px; font-size:14px; border-top:1px dotted #e4e4e4;color:#7e7e7e;}
+.grzx .grzx_main .grzx_main_mid .r_list .title1 .r_txt .xll a:hover{ color:#4ab3ac;}
+.grzx .grzx_main .grzx_main_mid .r_list .title1 .r_txt .xll a[checked]{ color:#4ab3ac;}
+.grzx .grzx_main .grzx_main_mid .r_list .title1 .r_btn{ float:right; padding-top:13px;}
+.grzx .grzx_main .grzx_main_mid .r_list .title1 .r_btn a{ float:left; padding:0 25px; height:40px; line-height:40px; color:#FFF; background:#4ab3ac; font-size:16px;}
+.grzx .grzx_main .grzx_main_mid .r_list .title1 .r_btn a:hover{ background:#62cbc4;}
+.grzx .grzx_main .grzx_main_mid .r_list .title1 .r_box{ float:right; padding-top:5px;}
+.grzx .grzx_main .grzx_main_mid .r_list .title1 .r_box .sbox{ float:left; margin-right:15px;}
+.grzx .grzx_main .grzx_main_mid .r_list .title1 .r_box .sbox .txtbox1{ float:left; height:38px; line-height:38px; border:1px solid #cfcfcf; border-right:none; width:200px; padding:0 10px; font-size:14px; color:#7e7e7e;}
+.grzx .grzx_main .grzx_main_mid .r_list .title1 .r_box .sbox a.s_btn1{ float:left; height:38px;width:38px; border:1px solid #cfcfcf; background:url(../images/i_s1.png) no-repeat;}
+.grzx .grzx_main .grzx_main_mid .r_list .title1 .r_box .sbox a.s_btn1:hover{ background:url(../images/i_s2.png) no-repeat; border:1px solid #f2890b;}
+.grzx .grzx_main .grzx_main_mid .r_list .title1 .r_box a.back{ float:left; height:38px; line-height:38px; padding:0 25px; font-size:14px; border:1px solid #4ab3ac; color:#4ab3ac;}
+.grzx .grzx_main .grzx_main_mid .r_list .title1 .r_box a.back:hover{ border:1px solid #f2890b; color:#f2890b;}
+.grzx .grzx_main .grzx_main_mid .dbox{ float:left;}
+
+
+
+.grzx .grzx_main .grzx_main_mid .r_list .listbox{ float:left; width:850px; margin-top:20px; padding-left:20px; background:url(../images/point.png) repeat-y 24px 0; padding-top:10px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox .cbox{ float:left; width:820px; background:url(../images/round.png) no-repeat; padding-left:40px; margin-bottom:30px; position:relative;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox .cbox .btnbox{ position:absolute; right:0px;top:40px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox .cbox .btnbox a{ float:left; padding:0 20px; font-size:16px; color:#FFF; line-height:40px; background:#f36d01; border:1px solid #ce5e03; -webkit-box-shadow:1px 1px 1px #d7d7d5; -moz-box-shadow:1px 1px 1px #d7d7d5; box-shadow:31x 1px 1px #d7d7d5;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox .cbox .btnbox a:hover{ background:#f68021;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox .cbox dl{ float:left; width:820px; border-bottom:1px solid #edebeb; padding:0px 0px 30px 0;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox .cbox dt{ float:left; width:200px; height:112px; margin-right:30px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox .cbox dd{ float:left; width:440px; line-height:38px; font-size:14px; color:#7e7e7e;text-overflow: ellipsis; white-space:nowrap; overflow:hidden;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox .cbox span.s1{ margin-right:10px; line-height:40px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox .cbox span.s1 a{ font-size:18px; color:#121212;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox .cbox span.s1 a:hover{ color:#4ab3ac;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox .cbox span.s2{ margin-right:30px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox .cbox span.s3{ color:#f36d01;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox .cbox span.s4{ margin-right:90px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox .cbox span i{ color:#4ab3ac; padding:0 8px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox .cbox span i a{ color:#4ab3ac;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox .cbox span i a:hover{ color:#f36d01;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0{ float:left; width:890px; margin-top:20px; padding-top:10px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox1{ float:left; width:890px; border-bottom:1px solid #edebeb; margin-bottom:10px; padding-bottom:10px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox1 dl{ float:left; width:890px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox1 dt{ float:left; width:60px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox1 dd{ float:right; width:830px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox1 dd.st1{ line-height:18px; font-size:13px; color:#7e7e7e;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox1 dd.st2{ line-height:35px; font-size:16px; color:#262626; height:40px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox1 dd.st2 a{ color:#262626}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox1 dd.st2 a:hover{ color:#4ab3ac}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox1 dd.st3{ line-height:35px; font-size:13px; color:#a8a8a8;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox1 dd.st4{ line-height:40px; font-size:16px; color:#494949;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox1 dd.st5{ line-height:28px; font-size:14px; color:#7e7e7e; padding-bottom:15px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox1 span { margin-right:30px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox2{ float:left; width:890px; border-bottom:1px solid #edebeb; margin-bottom:10px; padding-bottom:10px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox2 .titlebox{float:left; width:890px; height:45px; line-height:45px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox2 .titlebox a.s1{float:left; font-size:18px; color:#121212;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox2 .titlebox a.s1:hover{color:#4ab3ac;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox2 .titlebox a.s2{float:right; font-size:13px; color:#696969; padding-left:22px; background:url(../images/rz_icon1_1.png) no-repeat 0px 16px; margin-right:20px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox2 .titlebox a.s2:hover{background:url(../images/rz_icon1_2.png) no-repeat 0px 16px;color:#4ab3ac;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox2 .titlebox a.s3{float:right; font-size:13px; color:#696969; padding-left:22px; background:url(../images/rz_icon2_1.png) no-repeat 0px 16px; margin-right:20px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox2 .titlebox a.s3:hover{background:url(../images/rz_icon2_2.png) no-repeat 0px 16px; color:#4ab3ac;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox2 .wzbox{float:left;width:890px; line-height:30px; color:#959595; font-size:14px; padding-bottom:10px; padding-top:5px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox2 .wzbox img{ width:210px; height:130px; margin-right:15px; float:left;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox2 .wzbox span{}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox2 .xxbox{float:left; width:890px; height:26px; line-height:26px; font-size:13px; color:#686868;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox2 .xxbox span{float:left;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox2 .xxbox span.r{float:right; margin-right:10px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox3{ float:left; width:890px; border-bottom:1px solid #edebeb; margin-bottom:10px; padding-bottom:10px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox3 .table01{ float:left; width:890px; font-size:14px; color:#7e7e7e;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox3 .table01 tr td{ vertical-align:top; line-height:35px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox3 .table01 tr td.st1{ color:#262626; font-size:16px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox3 .table01 tr td.st2{ line-height:26px; padding:10px 0; color:#636363;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox3 .table01 tr td.st3{ line-height:28px; padding:0 2% 0 0;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox3 .table01 a.s1{ font-size:16px; color:#262626;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox3 .table01 a.s1:hover{ color:#4ab3ac;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox3 .table01 a.s2{ float:left; font-size:14px; color:#FFF; padding:0 25px; height:36px; line-height:36px; background:#f36d01; margin-top:25px; margin-left:15px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox3 .table01 a.s2:hover{ background:#f88121;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox3 .table01 a.s3{float:left; font-size:13px; color:#696969; padding-left:22px; background:url(../images/rz_icon1_1.png) no-repeat 0px 16px; margin-right:20px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox3 .table01 a.s3:hover{background:url(../images/rz_icon1_2.png) no-repeat 0px 16px;color:#4ab3ac;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox3 .table01 a.s4{float:right; font-size:13px; color:#696969; padding-left:22px; background:url(../images/rz_icon2_1.png) no-repeat 0px 10px; margin-right:20px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox3 .table01 a.s4:hover{background:url(../images/rz_icon2_2.png) no-repeat 0px 10px; color:#4ab3ac;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox3 .table01 p.st1{ font-size:36px; line-height:66px; color:#f36d01; font-family:Arial, Helvetica, sans-serif;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox3 .table01 p.st1 span{ font-size:13px; line-height:24px; color:#7e7e7e; padding-top:42px; padding-left:15px; font-family:"微软雅黑"; font-weight:normal;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .cbox3 .table01 .select1{ float:right; margin-top:5px; margin-right:15px; width:100px; border:1px solid #cfcfcf; line-height:28px; height:28px; color:#696969; padding-left:8px;}
+
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .bd{ float:left; width:890px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .bd .xgtx_table{ float:left; width:890px; margin-bottom:40px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .bd .xgtx_table tr td{ vertical-align:top; padding-bottom:15px; padding-left:40px; font-size:15px; color:#7e7e7e; line-height:30px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .bd .xgtx_table tr td span{ color:#e53030;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .bd .xgtx_table .txbox{ float:left; width:150px; height:150px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .bd .xgtx_table .btnbox{ float:left; width:220px; height:40px; position:relative; overflow:hidden; margin-top:100px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .bd .xgtx_table .btnbox .sc{position:absolute; right:0px; top:0px;z-index:1; font-size:300px;filter:alpha(opacity=0); 
+-moz-opacity:0.0; opacity:0.0;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .bd .xgtx_table  a{float:left;width:220px; height:40px; background:#4ab3ac; line-height:40px; text-align:center; font-size:18px; color:#FFF;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .bd .xgtx_table  a:hover{ background:#5bc9c2;}
+
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .bd .ty_table{ float:left; width:890px; margin-bottom:20px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .bd .ty_table tr td{ padding:15px 0; line-height:42px; font-size:16px; color:#7e7e7e; text-align:right; padding-right:20px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .bd .ty_table tr td span{color:#e53030; position:relative; top:40px; font-size:14px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .bd .ty_table tr.st1{ background:#F4F4F4;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .bd .ty_table .txtbox1{float:left; width:250px; height:40px; line-height:40px; border:1px solid #c5c5c5;color:#7e7e7e; padding:0 10px; background:#FFF;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .bd .ty_table .txtbox1:disabled{color:#c8c8c8;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .bd .ty_table .xl1{float:left; width:272px; height:40px; line-height:40px; border:1px solid #c5c5c5;color:#7e7e7e; padding:0 10px;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .bd .ty_table a.btn{float:left; width:250px; height:43px; line-height:43px; background:#f56c00; text-align:center; font-size:18px; color:#FFF;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .bd .ty_table a.btn:hover{background:#f77d1d;}
+.grzx .grzx_main .grzx_main_mid .r_list .listbox0 .bd .ty_table1 tr td{padding:20px 0;padding-right:20px;}
+
+.grmain{ float:left; width:100%;}
+.grmain .grmain_mid{ margin:0 auto; width:1190px; padding:25px 0;}
+.grmain .grmain_mid .rz_l{ float:left; width:850px;}
+.grmain .grmain_mid .rz_l .dh{ float:left; width:850px; height:30px; line-height:30px; font-size:14px; color:#7e7e7e;}
+.grmain .grmain_mid .rz_l .dh a{ color:#3e3e3e; padding:0 4px;}
+.grmain .grmain_mid .rz_l .dh a:hover{ color:#4ab3ac;}
+.grmain .grmain_mid .rz_l .zw{ float:left; width:850px; padding:15px 0;}
+.grmain .grmain_mid .rz_l .zw .title{float:left; width:850px; font-size:30px; line-height:60px; color:#121212; text-align:center; padding-top:20px;}
+.grmain .grmain_mid .rz_l .zw .xx{float:left; width:850px; font-size:13px; line-height:30px; color:#686868; text-align:right;}
+.grmain .grmain_mid .rz_l .zw .xx span{ margin-left:30px;}
+.grmain .grmain_mid .rz_l .zw .nr{float:left; width:830px;font-size:15px; color:#545454; line-height:28px; padding:25px 0 15px 20px;}
+.grmain .grmain_mid .rz_l .zw .nr p{ padding-bottom:14px; text-indent:30px;}
+.grmain .grmain_mid .rz_l .zw .nr img{ text-align:center; max-width:800px; margin-top:15px; margin-bottom:15px;}
+.grmain .grmain_mid .rz_l .dz{ float:left; width:850px; padding:15px 0;}
+.grmain .grmain_mid .rz_l .dz .table{ margin:0 auto; width:300px; text-align:center;}
+.grmain .grmain_mid .rz_l .dz .table tr td{text-align:center; line-height:40px; color:#7e7e7e;}
+.grmain .grmain_mid .rz_l .dz a.s1{ width:92px; height:92px; background:url(../images/rz_icon3_1.png) no-repeat; display:block; margin:0 auto;}
+.grmain .grmain_mid .rz_l .dz a.s1:hover{ width:92px; height:92px; background:url(../images/rz_icon3_1.png) no-repeat 0px -92px;}
+.grmain .grmain_mid .rz_l .dz a.s2{ width:92px; height:92px; background:url(../images/rz_icon4_1.png) no-repeat;display:block;margin:0 auto;}
+.grmain .grmain_mid .rz_l .dz a.s2:hover{ width:92px; height:92px; background:url(../images/rz_icon4_1.png) no-repeat 0px -92px;}
+.grmain .grmain_mid .rz_r{ float:right; width:290px;}
+.grmain .grmain_mid .rz_r .grzl{ float:left; width:230px; padding:20px 30px; background:#f3f5f7;}
+.grmain .grmain_mid .rz_r .grzl dl{ float:left; width:230px; text-align:center;}
+.grmain .grmain_mid .rz_r .grzl dt{ float:left; width:230px;}
+.grmain .grmain_mid .rz_r .grzl dt img{ border-radius:50px; -webkit-border-radius:50px; -moz-border-radius:50px;}
+.grmain .grmain_mid .rz_r .grzl dd{ float:left; width:230px; line-height:35px; font-size:14px; color:#7e7e7e;text-overflow: ellipsis; white-space:nowrap; overflow:hidden;}
+.grmain .grmain_mid .rz_r .grzl dd a{color:#7e7e7e; padding: 0 3px}
+.grmain .grmain_mid .rz_r .grzl dd.st1{ font-size:24px; line-height:50px; color:#5c5b5b;}
+.grmain .grmain_mid .rz_r .grzl dd.st1 a{ color:#5c5b5b;}
+.grmain .grmain_mid .rz_r .grzl dd a:hover{color:#4ab3ac;}
+.grmain .grmain_mid .rz_r .xgrz{ float:left; width:290px; margin-top:30px;}
+.grmain .grmain_mid .rz_r .xgrz .title{ float:left; width:290px; font-size:16px; color:#616161; line-height:50px; border-bottom:1px solid #b8b8b8;}
+.grmain .grmain_mid .rz_r .xgrz .tm{ float:left; width:290px; padding-top:5px;}
+.grmain .grmain_mid .rz_r .xgrz .tm dl{ float:left; width:290px;border-bottom:1px dotted #d6d6d6;}
+.grmain .grmain_mid .rz_r .xgrz .tm dt{ float:left; width:290px; font-size:16px; color:#7a7a7a; line-height:28px; padding:10px 0;}
+.grmain .grmain_mid .rz_r .xgrz .tm dt a{ color:#7a7a7a;}
+.grmain .grmain_mid .rz_r .xgrz .tm dt a:hover{ color:#4ab3ac;}
+.grmain .grmain_mid .rz_r .xgrz .tm dd{ float:left; width:290px; font-size:12px; color:#9a9a9a; padding-bottom:10px;}
+.grmain .grmain_mid .rz_r .xgrz .tm dd span{ margin-right:30px;}
+
+.grmain .grmain_mid .fbrz{ float:left; width:1100px; padding-left:45px;}
+.grmain .grmain_mid .fbrz .title{ float:left; width:1100px; font-size:24px; color:#121212; line-height:60px;}
+.grmain .grmain_mid .fbrz .lb{ float:left; width:1100px;}
+.grmain .grmain_mid .fbrz .lb dl{ float:left; width:1100px;}
+.grmain .grmain_mid .fbrz .lb dl dd{ float:left; width:1100px; padding:10px 0;}
+.grmain .grmain_mid .fbrz .txtbox1{ float:left; width:660px; height:48px; line-height:48px; border:1px solid #cfcfcf; padding:0 10px; font-size:16px; color:#8b8b8b;}
+.grmain .grmain_mid .fbrz .txtarea1{ float:left; width:1000px; height:400px; border:1px solid #cfcfcf; padding:10px; font-size:16px; color:#8b8b8b; line-height:30px;}
+.grmain .grmain_mid .fbrz span{ padding-left:10px; font-size:24px; line-height:50px; color:#f36d01;}
+.grmain .grmain_mid .fbrz  a.s1{ float:left; padding:0 45px; height:50px; line-height:50px; font-size:18px; color:#FFF; background:#4ab3ac;}
+.grmain .grmain_mid .fbrz  a.s1:hover{ background:#63cdc6;}
+.grmain .grmain_mid .fbrz  a.s2{ float:left; margin-left:20px; height:50px; line-height:50px; font-size:16px; color:#4ab3ac; }
+.grmain .grmain_mid .fbrz  a.s2:hover{color:#63cdc6;}
